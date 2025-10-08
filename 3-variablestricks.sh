@@ -1,6 +1,6 @@
 #!/bin/bash
-PERSON1=LOL
-PERSON2=LIL
+PERSON1=Lola
+PERSON2=Lila
 
 echo "$PERSON1::hii re kaisa hai"
 echo "$PERSON2::thik hoo apna bata"
