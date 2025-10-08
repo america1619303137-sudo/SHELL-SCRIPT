@@ -1,4 +1,6 @@
 #!/bin/bash
 echo "enter your username/name::"
-read USERNAME
-echo "enter username is $USERNAME"
+read USERNAME #shows the username
+read USERNAME1 #hides username
+echo "enterd username is $USERNAME"
+echo "entered username is $USERNAME1"
