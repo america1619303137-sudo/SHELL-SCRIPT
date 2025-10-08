@@ -4,3 +4,4 @@ read -s USERNAME #hides username while entering
 echo "enter your password"
 echo "entered username is $USERNAME"
 read -s PASSWORD
+echo "entered password is $PASSWORD"
