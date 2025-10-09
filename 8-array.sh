@@ -6,4 +6,4 @@ echo "movie is :${MOVIES[0]}"
 echo "movie is :${MOVIES[4]}"
 echo "movie is :${MOVIES[2]}"
 echo "movie is :${MOVIES[1]}"
-echo "all movies are: ${MOVIES[@]}"
+echo "all movies are: ${MOVIES[@]}" #for all the notation is [@]
