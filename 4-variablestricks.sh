@@ -1,5 +1,5 @@
-#!/bin/bash
-PERSON1=$1
+#!/bin/bash 
+PERSON1=$1 #arguments $1 & $2
 PERSON2=$2
 
 echo "$PERSON1::hii re kaisa hai"
