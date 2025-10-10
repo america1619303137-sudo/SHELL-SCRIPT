@@ -17,16 +17,21 @@ if [ $? -ne 0 ]
     echo "SUCCES:: installation is success"
     fi
 else 
-    echo "mysql is already instaled "    
+    echo "mysql is already installed " 
+    fi   
     
-    
+    dnf list installed git
+
+if [ $? -ne 0 ] #not installed
+then 
     dnf install git -y
 if [ $? -ne 0 ]
     echo "ERROR:: installation is FAILED"
-
     exit 1
-    else
+else
     echo "SUCCES:: installation is success"
+fi
+echo "git already exists"
 fi
 #how can you check previos programm is sucess or not in shell-script?
 # if the exit status is 0 it is success or else failed
