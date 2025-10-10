@@ -1,11 +1,11 @@
 #/bin/bash
 # -gt,-lt,-ge,-le,-eq
 nu=$1
-if [ $no -gt 100 ]
+if [ $nu -gt 100 ]
 then
-    echo "the entered no is greater than 100"
+    echo "the entered nu is greater than 100"
 else
-    echo "the entered number is less than or equl to 100"
+    echo "the entered nu is less than or equl to 100"
 fi
 
 
