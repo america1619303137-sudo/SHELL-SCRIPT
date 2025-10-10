@@ -5,16 +5,22 @@ then
     echo "ERROR::you should ave acces to sudo user"
     exit 1
 fi
+dnf list installed mysql
 
+if [ $? -ne 0 ] #not installed
+then 
 dnf install mysql -y
 if [ $? -ne 0 ]
     echo "ERROR:: installation is FAILED"
-
-    exit 1
-    else
+     exit 1
+ else
     echo "SUCCES:: installation is success"
-
-dnf install git -y
+    fi
+else 
+    echo "mysql is already instaled "    
+    
+    
+    dnf install git -y
 if [ $? -ne 0 ]
     echo "ERROR:: installation is FAILED"
 
