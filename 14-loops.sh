@@ -1,5 +1,5 @@
 #!/bin/bash
-for i (1...69)
+for i in (1...69)
 do 
     echo $i
 done
