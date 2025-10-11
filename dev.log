@@ -1,0 +1,17 @@
+total 26
+-rwxr-xr-x 1 manga 197609 135 Oct  8 13:42 1-helloworld.sh*
+-rw-r--r-- 1 manga 197609 178 Oct 10 13:15 10-conditions.sh
+-rwxr-xr-x 1 manga 197609 789 Oct 10 15:59 11-installation-on conditions.sh*
+-rwxr-xr-x 1 manga 197609 726 Oct 11 15:25 12-functions.sh*
+-rwxr-xr-x 1 manga 197609 775 Oct 11 15:36 13-logs.sh*
+-rwxr-xr-x 1 manga 197609 193 Oct  8 14:34 2-variables.sh*
+-rwxr-xr-x 1 manga 197609 249 Oct  8 14:46 3-variablestricks.sh*
+-rwxr-xr-x 1 manga 197609 264 Oct  9 15:34 4-variablestricks.sh*
+-rwxr-xr-x 1 manga 197609 121 Oct  8 15:13 5-variablesread.sh*
+-rwxr-xr-x 1 manga 197609 264 Oct  8 15:29 6-variableshide.sh*
+-rwxr-xr-x 1 manga 197609 188 Oct 11 15:02 7-datatypes.sh*
+-rwxr-xr-x 1 manga 197609 309 Oct  9 17:01 8-array.sh*
+-rwxr-xr-x 1 manga 197609 290 Oct 10 00:23 9-specialvariables.sh*
+drwxr-xr-x 1 manga 197609   0 Oct 11 14:21 SHELL-SCRIPT/
+-rw-r--r-- 1 manga 197609   0 Oct 11 19:45 dev.log
+drwxr-xr-x 1 manga 197609   0 Oct 11 15:34 shellscript-logs.sh/
