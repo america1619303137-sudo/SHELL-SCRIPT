@@ -2,13 +2,16 @@
 #!/bin/bash
 
 USERID=$(id -u)
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
 
 CHECK() {
     if [ $1 -ne 0 ]; then
-        echo "$2 .....ERROR"
+        echo -e "$2 ....$R ERROR"
         exit 1
     else
-        echo "$2 .....SUCCESS"
+        echo -e "$2 .....$G SUCCESS"
     fi
 }
 
@@ -32,5 +35,6 @@ if [ $? -ne 0 ]; then
     dnf install git -y
     CHECK $? "Installing Git"
 else
-    echo "Git is already installed"
+    echo -e "Git is already installed"
 fi
+#red-R= "\e[31m"   GREEN-G="\e[32m"    YELLOW-Y="\e[33m"
