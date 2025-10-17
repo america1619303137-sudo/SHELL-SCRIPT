@@ -1,0 +1,17 @@
+{
+    "name": "Mangal Singh",
+    "class": "10",
+    "email": "mangal@gmail.com",
+    "addresses": [
+        {
+            "type": "tempaddress",
+            "hno": "1223",
+            "area": "RLA"
+        },
+        {
+            "type": "permaddress",
+            "hno": "121",
+            "area": "OLA"
+        }
+    ]
+}
