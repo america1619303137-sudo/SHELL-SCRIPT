@@ -1,0 +1,16 @@
+<students>
+    <student>
+        <name>Manal Singh</name>
+        <email>mangalsingh2e4o@gmail.com</email>
+        <address>
+            <permaddress>
+                <hno>1123</hno>
+                <area>RLA</area>
+            </permaddress>
+            <tempaddress>
+                <hno>323</hno>
+                <area>LANJA</area>
+            </tempaddress>
+        </address>
+    </student>
+</students>
